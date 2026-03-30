@@ -60,5 +60,4 @@ Upload → Extraction → Embedding → Vector Search → AI-generated Answer.
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/your-username/chat-knowledge-agent.git
-cd chat-knowledge-agent/backend
+git clone https://github.com/renattaaa/chat-knowledge-agent.git
