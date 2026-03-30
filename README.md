@@ -10,7 +10,7 @@ Upload → Extraction → Embedding → Vector Search → AI-generated Answer.
 ## 🚀 Features
 
 - 📄 Upload documents (PDF, DOCX, CSV)
-- 🔍 Automatic text extraction & chunking
+- 🔍 Automatic text extraction & smart chunking
 - 🧠 Embedding generation (1024-dimension vectors)
 - 📦 Vector similarity search using FAISS / Chroma
 - 💬 Context-aware Q&A using LLM
@@ -45,14 +45,38 @@ Upload → Extraction → Embedding → Vector Search → AI-generated Answer.
 
 ---
 
+## 📸 Demo
+
+### 🖥️ Chat Interface
+![Chat UI](docs/fe/pic/qna.png)
+
+
+### 📄 Document Upload
+![Upload](docs/fe/pic/tampilan%20awal.png)
+
+### ⚙️ API Docs (Swagger)
+![Swagger](docs/be/pic/swagger.jpeg)
+
+---
+
+## 🧪 Example Use Case
+
+Upload a document (e.g. article, report, or dataset), then ask:
+
+> “What is the main topic of this document?”
+
+The system retrieves relevant context and generates an accurate, context-aware answer using AI.
+
+---
+
 ## 📡 API Endpoints
 
-| Method | Endpoint       | Description                      |
-|--------|--------------|----------------------------------|
-| POST   | /upload      | Upload and process document      |
-| POST   | /index       | Generate embeddings & store data |
-| POST   | /chat        | Ask question based on document   |
-| GET    | /docs/{id}   | Retrieve document metadata       |
+| Method | Endpoint     | Description                      |
+|--------|-------------|----------------------------------|
+| POST   | /upload     | Upload and process document      |
+| POST   | /index      | Generate embeddings & store data |
+| POST   | /chat       | Ask question based on document   |
+| GET    | /docs/{id}  | Retrieve document metadata       |
 
 ---
 
