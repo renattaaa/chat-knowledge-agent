@@ -52,7 +52,7 @@ Upload → Extraction → Embedding → Vector Search → AI-generated Answer.
 
 
 ### 📄 Document Upload
-![Upload](docs/fe/pic/tampilan%20awal.png)
+![Upload](docs/fe/pic/tampilan-awal.png)
 
 ### ⚙️ API Docs (Swagger)
 ![Swagger](docs/be/pic/swagger.jpeg)
